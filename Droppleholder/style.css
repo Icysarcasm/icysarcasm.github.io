@@ -149,7 +149,7 @@ body{
 
 .container .card .face.face1{
   position: relative;
-  background: linear-gradient(0deg, #201d37 0%, #37335a 100%);
+  background: linear-gradient(0deg, #371d1d 0%, #5a3333 100%);
   display: flex;
   justify-content: center;
   align-content:center;
