@@ -251,7 +251,7 @@ body{
 .gradient {
   width : 100vw;
   height : 50vh;
-  background:  linear-gradient(0deg, rgb(20, 20, 20) 0%, rgba(50,50,50,0) 75%);
+  background:  linear-gradient(0deg, rgb(255, 0, 0) 0%, rgba(247, 45, 0, 0) 75%);
   top : 50%;
   position: fixed;
   pointer-events: none;
