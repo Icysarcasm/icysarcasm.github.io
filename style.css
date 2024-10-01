@@ -30,7 +30,7 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(0deg, rgb(30, 73, 71) 0%, rgb(0, 3, 85) 100%);
+  background: linear-gradient(0deg, rgb(125, 125, 125) 0%, rgb(20, 20, 20) 100%);
   color:rgb(0, 0, 53);
 }
 
