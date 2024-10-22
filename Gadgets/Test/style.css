@@ -1,7 +1,26 @@
 
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
+p,h1,h2,h3,h4,h5,h6  {
+  text-shadow: 0px 0px 30px rgb(0, 0, 0);
+  font-family: 'Ubuntu';font-size: 22px;
+  color: aliceblue;
+}
 
+.site-header-content {
+  background: none!important;
+}
+.site-footer {
+  background: none!important;
+}
+.gh-head {
+  background: none!important;
+}
+
+.site-header-content {
+background: none;
+}
+  
 .background {
   position: fixed;
   top: -0px;
@@ -14,12 +33,6 @@ body {
   margin:0;
 }
 
-h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight:300;
-  letter-spacing: 2px;
-  font-size:48px;
-}
 p {
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
@@ -112,6 +125,7 @@ p {
   }
   h1 {
     font-size:24px;
+    
   }
 } 
 
@@ -255,4 +269,57 @@ body{
   top : 50%;
   position: fixed;
   pointer-events: none;
+}
+.backGrad {
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 0, 0) 0%, rgba(16, 16, 16, 1) 100%);
+  opacity: 100%;
+  position: fixed;
+  top:0px;
+  height: 100vh;
+  width:  100vw;
+  background-attachment: fixed;
+}
+
+
+.blurOpacity {
+  opacity: 60%;
+  position: fixed;
+  top:0px;
+  height: 100vh;
+  width:  100vw;
+}
+.blur {
+  position: fixed;
+  /*backdrop-filter: blur(10px);*/
+  top:0px;
+  height: 100vh;
+  width:  100vw;
+}
+.card-back{
+  position: fixed;
+  border-radius: 30px;
+  height: 50px;
+  width:  500px;
+  background-color: rgba(255,255,255,.1);
+  display:flex;
+  transition-duration: 1s;
+}
+.card-back:hover{
+  background-color: rgba(255,255,255,.2);
+  height: 60px;
+  width:  510px;
+  .column{
+    top:2px;
+    left:55px;
+  }
+
+}
+.column{
+  position: relative;
+  background-color: rgba(255,255,255,.0);
+  border-radius: 30px;
+  width: 100%;
+  top:-3px;
+  left: 50px;
+  transition-duration: 1s;
 }
