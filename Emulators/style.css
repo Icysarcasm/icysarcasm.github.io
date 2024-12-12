@@ -7,7 +7,7 @@
   top: -0px;
   height: 100vh;
   width:  100vw;
-  background : #47436a; 
+  background : #4a6a43; 
 }
 
 body {
@@ -30,8 +30,8 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(0deg, #201d37 0%, #37335a 100%);
-  color:rgb(0, 0, 53);
+  background: linear-gradient(0deg, #22371d 0%, #3a5a33 100%);
+  color:rgb(12, 53, 0);
 }
 
 .inner-header {
@@ -149,7 +149,7 @@ body{
 
 .container .card .face.face1{
   position: relative;
-  background: linear-gradient(0deg, #201d37 0%, #37335a 100%);
+  background: linear-gradient(0deg, #1f371d 0%, #395a33 100%);
   display: flex;
   justify-content: center;
   align-content:center;
@@ -164,10 +164,10 @@ body{
     inset 0 0 60px rgb(255, 255, 255),
     inset 20px 0 80px rgb(184, 184, 184),
     inset -20px 0 80px rgb(212, 212, 212),
-    inset 20px 0 300px rgb(133, 147, 255),
-    inset -20px 0 300px rgb(43, 168, 185),
+    inset 20px 0 300px rgb(145, 255, 133),
+    inset -20px 0 300px rgb(71, 185, 43),
     0 0 50px #fff,
-    -10px 0 80px rgb(0, 64, 255),
+    -10px 0 80px rgb(0, 255, 21),
     10px 0 80px rgb(255, 255, 0); 
    
 }
