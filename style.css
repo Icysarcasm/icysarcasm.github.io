@@ -161,12 +161,12 @@ body{
 .container .card:hover .face.face1{
   transform: translateY(0);
   box-shadow:
-    inset 0 0 60px rgb(255, 255, 255),
-    inset 20px 0 80px rgb(184, 184, 184),
-    inset -20px 0 80px rgb(212, 212, 212),
-    inset 20px 0 300px rgb(245, 133, 255),
-    inset -20px 0 300px rgb(185, 43, 164),
-    0 0 50px #fff,
+    inset 0 0 60px rgb(203, 205, 244),
+    inset 20px 0 80px rgb(255, 64, 242),
+    inset -20px 0 80px rgb(255, 124, 124),
+    inset 20px 0 300px rgb(204, 133, 255),
+    inset -2px 0 300px rgb(185, 43, 164),
+    0 0 50px #ffffff,
     -10px 0 80px rgb(255, 0, 221),
     10px 0 80px rgb(255, 255, 0); 
    
