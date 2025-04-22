@@ -1,4 +1,3 @@
-
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 
@@ -7,7 +6,7 @@
   top: -0px;
   height: 100vh;
   width:  100vw;
-  background : #69436a; 
+  background: #f44336; /* Dark red */
 }
 
 body {
@@ -30,8 +29,8 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(0deg, #371d37 0%, #5a3354 100%);
-  color:rgb(53, 0, 49);
+  background: linear-gradient(0deg, #4a0d0d 0%, #8b1e1e 100%); /* Gradient with red tones */
+  color: rgb(255, 255, 255); /* White text */
 }
 
 .inner-header {
@@ -57,6 +56,17 @@ p {
   max-height:150px;
 }
 
+.waves use:nth-child(1) {
+  fill: #b71c1c; /* Red */
+}
+
+.waves use:nth-child(2) {
+  fill: #d32f2f; /* Lighter red */
+}
+
+.waves use:nth-child(3) {
+  fill: #f44336; /* Even lighter red */
+}
 
 .content {
   position:relative;
@@ -149,7 +159,7 @@ body{
 
 .container .card .face.face1{
   position: relative;
-  background: linear-gradient(0deg, #371d34 0%, #5a3355 100%);
+  background: linear-gradient(0deg, #4a0d0d 0%, #8b1e1e 100%); /* Red gradient */
   display: flex;
   justify-content: center;
   align-content:center;
@@ -161,17 +171,13 @@ body{
 .container .card:hover .face.face1{
   transform: translateY(0);
   box-shadow:
-    inset 0 0 60px rgb(203, 205, 244),
-    inset 20px 0 80px rgb(255, 64, 242),
+    inset 0 0 60px rgb(255, 255, 255),
+    inset 20px 0 80px rgb(255, 64, 64),
     inset -20px 0 80px rgb(255, 124, 124),
-    inset 20px 0 300px rgb(204, 133, 255),
-    inset -2px 0 300px rgb(185, 43, 164),
-    0 0 50px #ffffff,
-    -10px 0 80px rgb(255, 0, 221),
-    10px 0 80px rgb(255, 255, 0); 
-   
+    inset 20px 0 300px rgb(255, 133, 133),
+    inset -20px 0 300px rgb(185, 43, 43),
+    0 0 50px #fff;
 }
-
 
 .container .card .face.face1 .content{
   opacity: .2;
@@ -205,7 +211,7 @@ body{
 
 .container .card .face.face2{
    position: relative;
-   background: linear-gradient(0deg, rgba(50,50,50,0) 0%, 	rgba(51, 51, 51, 0) 75%);;
+   background: linear-gradient(0deg, rgba(50, 0, 0, 0) 0%, rgba(51, 0, 0, 0.75) 75%);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -251,7 +257,7 @@ body{
 .gradient {
   width : 100vw;
   height : 50vh;
-  background:  linear-gradient(0deg, rgb(20, 20, 20) 0%, rgba(50,50,50,0) 75%);
+  background:  linear-gradient(0deg, rgb(50, 0, 0) 0%, rgba(100, 0, 0, 0) 75%);
   top : 50%;
   position: fixed;
   pointer-events: none;
