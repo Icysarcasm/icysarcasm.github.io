@@ -1,2 +1,4 @@
 # Icysarcasm.github.io
-garbage site woaw
+FUCK ICE
+
+moved to codeberg.
